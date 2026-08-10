@@ -57,16 +57,6 @@
   #define H_SEMI &kp
 #endif
 
-/* Gallium GASC Home Row Mods */
-#define HRM_N &hml LGUI N
-#define HRM_R &hml LALT R
-#define HRM_T &hml LSHFT T
-#define HRM_S &hml LCTRL S
-
-#define HRM_H &hmr RCTRL H
-#define HRM_A &hmr RSHFT A
-#define HRM_E &hmr RALT E
-#define HRM_I &hmr RGUI I
 
 #if defined HT_HOME_ROW_MODS || defined HT_TWO_THUMB_KEYS
   #define HRM_A    H_A A
@@ -88,6 +78,17 @@
   #define HRM_SEMI &kp SEMI
 #endif
 
+
+/* Gallium GASC Home Row Mods (MUST come after Selenium's own HRM_* defines) */
+#define HRM_N &hml LGUI
+#define HRM_R &hml LALT
+#define HRM_T &hml LSHFT
+#define HRM_S &hml LCTRL
+
+#define HRM_H &hmr RCTRL
+#define HRM_A &hmr RSHFT
+#define HRM_E &hmr RALT
+#define HRM_I &hmr RGUI
 
 /**
  * Thumb Keys

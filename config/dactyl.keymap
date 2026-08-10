@@ -1,4 +1,5 @@
-// Dactyl Manuform 40-key custom shield mapping for Selenium
+// Gallium Dactyl 40-key matrix -> Selenium
+// The four outer bottom-row keys are intentionally dead (&none), as in Miryoku.
 #define SELENIUM_KEYMAP_BINDINGS( \
     LOUT1,  LROW1,  RROW1,  ROUT1, \
     LOUT2,  LROW2,  RROW2,  ROUT2, \
@@ -7,6 +8,6 @@
     LROW1               RROW1 \
     LROW2               RROW2 \
     LROW3               RROW3 \
-    LOUT2 LOUT3 LT1 LT2 LT3  RT3 RT2 RT1 ROUT3 ROUT2
+    &none &none LT1 LT2 LT3  RT3 RT2 RT1 &none &none
 
 #include <aekeynox/selenium.keymap>
