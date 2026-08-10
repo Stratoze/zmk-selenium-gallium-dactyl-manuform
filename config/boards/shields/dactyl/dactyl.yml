@@ -1,0 +1,20 @@
+file_format: "1"
+id: dactyl
+name: dactyl
+type: shield
+url: https://github.com/Haha1609/Michila
+type: board
+arch: arm
+output:
+  - usb
+  - ble
+features:
+  - keys
+  - studio
+  - pointer
+  - encoder
+siblings:
+  - dactyl_left
+  - dactyl_right
+
+  

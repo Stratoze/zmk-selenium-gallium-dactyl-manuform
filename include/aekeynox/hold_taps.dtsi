@@ -379,7 +379,7 @@
         bindings = <&kp>, <&kp>;
         hold-trigger-on-release;
         /* Corrected Dactyl 46-key matrix: Right hand keys */
-        hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 25 26 27 28 29 32 33 36 37 40 41 44 45>;
+        hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 25 26 27 28 29 35 36 37 38 39>;
     };
 
     /* Gallium Timeless HRMs - Right Hand */
@@ -393,7 +393,7 @@
         bindings = <&kp>, <&kp>;
         hold-trigger-on-release;
         /* Corrected Dactyl 46-key matrix: Left hand keys */
-        hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31 34 35 38 39 42 43>;
+        hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31 32 33 34>;
     };
   };
 };

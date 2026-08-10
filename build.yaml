@@ -173,10 +173,10 @@ include:
 
   # Gallium Dactyl Manuform 4x5 + nice!nano v2
   - board: nice_nano@2//zmk
-    shield: dactyl_manuform_4x5_left
+    shield: dactyl_left
     artifact-name: gallium_dactyl_left
     cmake-args: -DCONFIG_ZMK_POINTING=y
   - board: nice_nano@2//zmk
-    shield: dactyl_manuform_4x5_right
+    shield: dactyl_right
     artifact-name: gallium_dactyl_right
     cmake-args: -DCONFIG_ZMK_POINTING=y
