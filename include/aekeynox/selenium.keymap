@@ -42,7 +42,7 @@
         &kp LSHIFT ,  &kp X  &kp Q  &kp M  &kp W  &kp Z   ,   &kp K  &kp F  &kp SQT    &kp SEMI  &kp DOT   ,  &kp RSHIFT    ,
         LTHUMB_TUCK , LTHUMB_HOME , LTHUMB_REACH   ,   RTHUMB_REACH , RTHUMB_HOME , RTHUMB_TUCK
     )>;
-};
+    };
 
     // 1. NumLock layer -- a NavNum layer that stays on until deactivated without holding any key
     num_lock_layer: num_lock_layer {
