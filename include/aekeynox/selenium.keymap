@@ -35,14 +35,14 @@
     //               -- the Space Cadet layer-tap on the right can be replaced by an AltGr/Enter mod-tap
     //               -- adjust the homerow mods with the #define statements above
     base_layer: base_layer {
-      display-name = "Base";
-      bindings = <SELENIUM_KEYMAP_BINDINGS(
-        &kp TAB    ,  &kp Q  &kp W  &kp E  &kp R  &kp T   ,   &kp Y  &kp U  &kp I     &kp O   &kp P     ,  &kp BACKSPACE ,
-        &kp ESCAPE ,  HRM_A  HRM_S  HRM_D  HRM_F  &kp G   ,   &kp H  HRM_J  HRM_K     HRM_L   HRM_SEMI  ,  &kp ENTER     ,
-        &kp LSHIFT ,  &kp Z  &kp X  &kp C  &kp V  &kp B   ,   &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH  ,  &kp RSHIFT    ,
-               LTHUMB_TUCK , LTHUMB_HOME , LTHUMB_REACH   ,   RTHUMB_REACH , RTHUMB_HOME , RTHUMB_TUCK
-      )>;
-    };
+    display-name = "Base";
+    bindings = <SELENIUM_KEYMAP_BINDINGS(
+        &kp TAB    ,  &kp B  &kp L  &kp D  &kp C  &kp V   ,   &kp J  &kp Y  &kp O      &kp U     &kp COMMA ,  &kp BACKSPACE ,
+        &kp ESCAPE ,  HRM_N  HRM_R  HRM_T  HRM_S  &kp G   ,   &kp P  HRM_H  HRM_A      HRM_E     HRM_I     ,  &kp ENTER     ,
+        &kp LSHIFT ,  &kp X  &kp Q  &kp M  &kp W  &kp Z   ,   &kp K  &kp F  &kp SQT    &kp SEMI  &kp DOT   ,  &kp RSHIFT    ,
+        LTHUMB_TUCK , LTHUMB_HOME , LTHUMB_REACH   ,   RTHUMB_REACH , RTHUMB_HOME , RTHUMB_TUCK
+    )>;
+};
 
     // 1. NumLock layer -- a NavNum layer that stays on until deactivated without holding any key
     num_lock_layer: num_lock_layer {
