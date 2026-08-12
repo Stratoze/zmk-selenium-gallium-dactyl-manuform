@@ -1,13 +1,12 @@
-// Gallium Dactyl 40-key matrix -> Selenium
+// QWERTY Dactyl 40-key matrix -> Selenium
 // The four outer bottom-row keys are intentionally dead (&none), as in Miryoku.
 #define SELENIUM_KEYMAP_BINDINGS( \
-    LOUT1,  LROW1,  RROW1,  ROUT1, \
-    LOUT2,  LROW2,  RROW2,  ROUT2, \
-    LOUT3,  LROW3,  RROW3,  ROUT3, \
-    LT1, LT2, LT3,  RT3, RT2, RT1) \
-    LROW1               RROW1 \
-    LROW2               RROW2 \
-    LROW3               RROW3 \
-    &none &none LT1 LT2 LT3  RT3 RT2 RT1 &none &none
-
+LOUT1,  LROW1,  RROW1,  ROUT1, \
+LOUT2,  LROW2,  RROW2,  ROUT2, \
+LOUT3,  LROW3,  RROW3,  ROUT3, \
+LT1, LT2, LT3,  RT3, RT2, RT1) \
+LROW1               RROW1 \
+LROW2               RROW2 \
+LROW3               RROW3 \
+&none &none LT1 LT2 LT3  RT3 RT2 RT1 &none &none
 #include <aekeynox/selenium.keymap>

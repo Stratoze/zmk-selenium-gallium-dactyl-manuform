@@ -171,14 +171,14 @@ include:
     shield: settings_reset
     artifact-name: nice_nano_v2_settings_reset
 
-  # Gallium Dactyl Manuform 4x5 + nice!nano v2
+  # QWERTY Dactyl Manuform 4x5 + nice!nano v2
   - board: nice_nano@2//zmk
     shield: dactyl_left
     snippet: studio-rpc-usb-uart
-    artifact-name: gallium_dactyl_left
+    artifact-name: qwerty_dactyl_left
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_POINTING=y
   - board: nice_nano@2//zmk
     shield: dactyl_right
     snippet: studio-rpc-usb-uart
-    artifact-name: gallium_dactyl_right
+    artifact-name: qwerty_dactyl_right
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_POINTING=y
